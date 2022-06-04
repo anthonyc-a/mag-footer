@@ -30,7 +30,7 @@ a {
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
-  padding: 32px 20px;
+  padding: 32px 16px;
 }
 
 @media screen and (min-width: 860px) {
