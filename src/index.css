@@ -90,7 +90,7 @@ a {
 
 @media screen and (min-width: 860px) {
   .footer .footer-inner .inner-section .version {
-    margin-right: 64px;
+    margin-right: 80px;
   }
 }
 
@@ -113,6 +113,14 @@ a {
       -ms-flex-align: center;
           align-items: center;
   height: 40px;
+}
+
+.footer .footer-inner .inner-section .time .t {
+  margin-right: 6px;
+}
+
+.footer .footer-inner .inner-section .time .t span {
+  margin-left: 6px;
 }
 
 .footer .footer-inner .inner-section .time::before {

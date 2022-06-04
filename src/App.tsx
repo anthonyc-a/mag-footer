@@ -1,4 +1,5 @@
 import MagneticLink from "./MagLink";
+import Time from "./Time";
 
 function App() {
   return (
@@ -7,7 +8,9 @@ function App() {
         <div className="footer-inner">
           <div className="inner-section">
             <span className="version">© 2022 Your Business</span>
-            <span className="time">07:22 PM BST</span>
+            <span className="time">
+              <Time />
+            </span>
           </div>
 
           <div className="inner-section">
