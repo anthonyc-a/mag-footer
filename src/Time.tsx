@@ -7,7 +7,7 @@ const Time = () => {
 
   React.useEffect(() => {
     setInterval(() => {
-      const time: any = moment.tz("Europe/London").format("HH:mm");
+      const time: any = moment.tz("Europe/London").format("HH:mm A");
       setTimeState(time);
     }, 10);
   }, []);
