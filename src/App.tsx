@@ -1,4 +1,4 @@
-import MagneticButton from "./MagLink";
+import MagneticLink from "./MagLink";
 
 function App() {
   return (
@@ -13,13 +13,13 @@ function App() {
           <div className="inner-section">
             <div className="socials">
               <div className="social">
-                <MagneticButton type="Instagram" />
+                <MagneticLink type="Instagram" />
               </div>
               <div className="social">
-                <MagneticButton type="Twitter" />
+                <MagneticLink type="Twitter" />
               </div>
               <div className="social">
-                <MagneticButton type="LinkedIn" />
+                <MagneticLink type="LinkedIn" />
               </div>
             </div>
           </div>

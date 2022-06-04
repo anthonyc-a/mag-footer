@@ -5,8 +5,8 @@ interface Props {
   type: string;
 }
 
-const MagneticButton: React.FC<Props> = ({ type }: any): JSX.Element => {
-  const MB = ({
+const MagneticLink: React.FC<Props> = ({ type }: any): JSX.Element => {
+  const ML = ({
     children,
     className,
     speed = 1,
@@ -107,7 +107,7 @@ const MagneticButton: React.FC<Props> = ({ type }: any): JSX.Element => {
     );
   };
   return (
-    <MB
+    <ML
       className="button-2"
       scale={1}
       tollerance={1}
@@ -117,8 +117,8 @@ const MagneticButton: React.FC<Props> = ({ type }: any): JSX.Element => {
       <a href="/" className="inner">
         {type}
       </a>
-    </MB>
+    </ML>
   );
 };
 
-export default MagneticButton;
+export default MagneticLink;
