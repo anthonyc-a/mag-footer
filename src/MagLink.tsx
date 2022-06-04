@@ -10,7 +10,7 @@ const MagneticLink: React.FC<Props> = ({ type }: any): JSX.Element => {
     children,
     className,
     speed = 1,
-    tollerance = 0.8,
+    tolerance = 0.8,
     scale = 1.2,
     debug = false,
     borderRadius = 0,
@@ -57,10 +57,9 @@ const MagneticLink: React.FC<Props> = ({ type }: any): JSX.Element => {
       const y = e.clientY || e.touches[0].clientY;
 
       const maxX =
-        ((rootBound.current.width - itemBound.current.width) / 2) * tollerance;
+        ((rootBound.current.width - itemBound.current.width) / 2) * tolerance;
       const maxY =
-        ((rootBound.current.height - itemBound.current.height) / 2) *
-        tollerance;
+        ((rootBound.current.height - itemBound.current.height) / 2) * tolerance;
 
       const newX = gsap.utils.mapRange(
         0,
@@ -110,7 +109,7 @@ const MagneticLink: React.FC<Props> = ({ type }: any): JSX.Element => {
     <ML
       className="button-2"
       scale={1}
-      tollerance={1}
+      tolerance={1}
       speed={0.3}
       borderRadius="50%"
     >
