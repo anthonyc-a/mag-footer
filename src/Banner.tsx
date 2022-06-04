@@ -4,7 +4,7 @@ const Banner = () => {
   const bannerDupe = () => {
     var bannerList = [];
     for (var i = 0; i < 5; i++) {
-      bannerList.push(<h1 key={i}>Available Now —</h1>);
+      bannerList.push(<h1 key={i}>Now Available —</h1>);
     }
     return bannerList;
   };

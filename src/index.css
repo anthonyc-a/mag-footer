@@ -32,8 +32,8 @@ a {
 
 @media screen and (min-width: 860px) {
   .banner .banner-inner {
-    -webkit-animation: banner-anim 5s linear infinite;
-            animation: banner-anim 5s linear infinite;
+    -webkit-animation: banner-anim 10s linear infinite;
+            animation: banner-anim 10s linear infinite;
   }
 }
 
