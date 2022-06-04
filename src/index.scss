@@ -56,7 +56,10 @@ a {
         position: relative;
         display: flex;
         align-items: center;
-        margin-right: 64px;
+
+        @media screen and (min-width: 860px) {
+          margin-right: 64px;
+        }
 
         &::before {
           content: "VERSION";
@@ -101,7 +104,11 @@ a {
         }
 
         .social {
-          margin-right: 20px;
+          margin-right: 10px;
+
+          @media screen and (min-width: 860px) {
+            margin-right: 20px;
+          }
 
           &:nth-last-child(1) {
             margin-right: 0;
