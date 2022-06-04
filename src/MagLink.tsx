@@ -114,7 +114,9 @@ const MagneticButton: React.FC<Props> = ({ type }: any): JSX.Element => {
       speed={0.3}
       borderRadius="50%"
     >
-      {type}
+      <a href="/" className="inner">
+        {type}
+      </a>
     </MB>
   );
 };

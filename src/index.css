@@ -135,4 +135,26 @@ a {
   -webkit-transform: translateX(-10px);
           transform: translateX(-10px);
 }
+
+.button-2 .inner {
+  position: relative;
+}
+
+.button-2 .inner:hover::after {
+  width: 100%;
+  right: unset;
+  left: 0;
+}
+
+.button-2 .inner::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
 /*# sourceMappingURL=index.css.map */
