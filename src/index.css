@@ -139,14 +139,14 @@ a {
           transform: translateX(-10px);
 }
 
-.button-2 .inner {
-  position: relative;
-}
-
-.button-2 .inner:hover::after {
+.button-2:hover .inner::after {
   width: 100%;
   right: unset;
   left: 0;
+}
+
+.button-2 .inner {
+  position: relative;
 }
 
 .button-2 .inner::after {

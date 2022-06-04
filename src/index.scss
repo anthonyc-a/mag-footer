@@ -121,14 +121,14 @@ a {
   padding: 10px 10px;
   transform: translateX(-10px);
 
+  &:hover .inner::after {
+    width: 100%;
+    right: unset;
+    left: 0;
+  }
+
   .inner {
     position: relative;
-
-    &:hover::after {
-      width: 100%;
-      right: unset;
-      left: 0;
-    }
 
     &::after {
       content: "";
