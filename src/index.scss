@@ -15,6 +15,43 @@ a {
   text-decoration: none;
 }
 
+.banner {
+  width: 100%;
+  margin-bottom: 40px;
+  overflow: hidden;
+
+  .banner-inner {
+    display: flex;
+    align-items: center;
+    animation: banner-anim 20s linear infinite;
+
+    @media screen and (min-width: 860px) {
+      animation: banner-anim 5s linear infinite;
+    }
+
+    h1 {
+      margin-right: 16px;
+      font-size: 80px;
+      font-weight: 600;
+      white-space: nowrap;
+      text-transform: uppercase;
+    }
+
+    &:hover {
+      animation-play-state: paused;
+    }
+
+    @keyframes banner-anim {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+  }
+}
+
 .footer {
   position: absolute;
   bottom: 0;

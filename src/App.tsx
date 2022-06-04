@@ -1,12 +1,14 @@
+import Banner from "./Banner";
 import MagneticLink from "./MagLink";
 
 function App() {
   return (
     <div className="App">
       <div className="footer">
+        <Banner />
         <div className="footer-inner">
           <div className="inner-section">
-            <span className="version">© 2022 Your Name</span>
+            <span className="version">© 2022 Your Business Name</span>
             <span className="time">07:22 PM BST</span>
           </div>
 

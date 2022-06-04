@@ -13,6 +13,65 @@ a {
   text-decoration: none;
 }
 
+.banner {
+  width: 100%;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.banner .banner-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: banner-anim 20s linear infinite;
+          animation: banner-anim 20s linear infinite;
+}
+
+@media screen and (min-width: 860px) {
+  .banner .banner-inner {
+    -webkit-animation: banner-anim 5s linear infinite;
+            animation: banner-anim 5s linear infinite;
+  }
+}
+
+.banner .banner-inner h1 {
+  margin-right: 16px;
+  font-size: 80px;
+  font-weight: 600;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.banner .banner-inner:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes banner-anim {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+@keyframes banner-anim {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
 .footer {
   position: absolute;
   bottom: 0;
