@@ -1,24 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import MagneticButton from "./MagLink";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="footer">
+        <div className="footer-inner">
+          <div className="inner-section">
+            <span className="version">© 2022 Your Name</span>
+            <span className="time">07:22 PM BST</span>
+          </div>
+
+          <div className="inner-section">
+            <div className="socials">
+              <div className="social">
+                <MagneticButton type="Instagram" />
+              </div>
+              <div className="social">
+                <MagneticButton type="Twitter" />
+              </div>
+              <div className="social">
+                <MagneticButton type="LinkedIn" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

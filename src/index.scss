@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #151515;
+  color: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 40px;
+
+    .inner-section {
+      display: flex;
+
+      .version {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-right: 64px;
+
+        &::before {
+          content: "VERSION";
+          position: absolute;
+          top: -80%;
+          font-size: 14px;
+          white-space: nowrap;
+          color: #777;
+        }
+      }
+
+      .time {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 40px;
+
+        &::before {
+          content: "LOCAL TIME";
+          position: absolute;
+          top: -80%;
+          font-size: 14px;
+          white-space: nowrap;
+          color: #777;
+        }
+      }
+
+      .socials {
+        position: relative;
+        display: flex;
+
+        &::before {
+          content: "SOCIALS";
+          position: absolute;
+          top: -80%;
+          font-size: 14px;
+          white-space: nowrap;
+          color: #777;
+        }
+
+        .social {
+          margin-right: 20px;
+
+          &:nth-last-child(1) {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.magnetic-button {
+  position: relative;
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+  z-index: 1;
+  touch-action: none;
+
+  span {
+    display: inline-block;
+  }
+
+  &--hover {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.button-2 {
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+  transform: translateX(-10px);
+}
