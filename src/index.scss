@@ -64,8 +64,8 @@ a {
         &::before {
           content: "VERSION";
           position: absolute;
-          top: -80%;
-          font-size: 14px;
+          top: -50%;
+          font-size: 12px;
           font-weight: 500;
           white-space: nowrap;
           color: #777;
@@ -89,8 +89,8 @@ a {
         &::before {
           content: "LOCAL TIME";
           position: absolute;
-          top: -80%;
-          font-size: 14px;
+          top: -50%;
+          font-size: 12px;
           font-weight: 500;
           white-space: nowrap;
           color: #777;
@@ -104,8 +104,8 @@ a {
         &::before {
           content: "SOCIALS";
           position: absolute;
-          top: -80%;
-          font-size: 14px;
+          top: -50%;
+          font-size: 12px;
           font-weight: 500;
           white-space: nowrap;
           color: #777;
