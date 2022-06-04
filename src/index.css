@@ -86,6 +86,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 860px) {
@@ -113,6 +114,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   height: 40px;
+  font-weight: 500;
 }
 
 .footer .footer-inner .inner-section .time .t {
@@ -191,6 +193,7 @@ a {
 
 .button-2 {
   font-size: 16px;
+  font-weight: 500;
   color: #101010;
   border: none;
   padding: 10px 10px;
@@ -214,7 +217,7 @@ a {
   bottom: -6px;
   right: 0;
   width: 0;
-  height: 1px;
+  height: 2px;
   background-color: #101010;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
