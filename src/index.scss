@@ -24,11 +24,33 @@ a {
 
   .footer-inner {
     display: flex;
-    justify-content: space-between;
-    padding: 32px 40px;
+    flex-direction: column-reverse;
+    padding: 32px 20px;
+
+    @media screen and (min-width: 860px) {
+      padding: 32px 40px;
+    }
+
+    @media screen and (min-width: 860px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
 
     .inner-section {
       display: flex;
+      justify-content: space-between;
+
+      @media screen and (min-width: 860px) {
+        justify-content: unset;
+      }
+
+      &:nth-child(1) {
+        margin-top: 64px;
+
+        @media screen and (min-width: 860px) {
+          margin-top: 0;
+        }
+      }
 
       .version {
         position: relative;
