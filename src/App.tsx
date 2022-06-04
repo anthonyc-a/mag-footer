@@ -6,7 +6,7 @@ function App() {
       <div className="footer">
         <div className="footer-inner">
           <div className="inner-section">
-            <span className="version">© 2022 Your Business Name</span>
+            <span className="version">© 2022 Your Business</span>
             <span className="time">07:22 PM BST</span>
           </div>
 
