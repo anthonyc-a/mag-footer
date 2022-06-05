@@ -113,7 +113,7 @@ const MagneticLink: React.FC<Props> = ({ type }: any): JSX.Element => {
       speed={0.3}
       borderRadius="50%"
     >
-      <a href="/" className="inner">
+      <a href="/about" className="inner">
         {type}
       </a>
     </ML>

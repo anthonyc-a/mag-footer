@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #eee;
+  background-color: #ebebeb;
   color: #101010;
 }
 
@@ -181,4 +181,13 @@ a {
       transition: 0.3s ease;
     }
   }
+}
+
+.to-top {
+    position: relative;
+    top: -60%;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    color: #777;
 }
