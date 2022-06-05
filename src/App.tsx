@@ -25,7 +25,7 @@ function App() {
                 <MagneticLink type="LinkedIn" />
               </div>
             </div>
-ui changes          </div>
+          </div>
         </div>
       </div>
     </div>

@@ -116,7 +116,7 @@ const MagneticLink: React.FC<Props> = ({ type }: any): JSX.Element => {
     >
       <a href="/about" className="inner">
         {type}
-        <TbArrowUpRight size={18} />
+        <TbArrowUpRight size={16} />
       </a>
     </ML>
   );

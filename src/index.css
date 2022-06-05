@@ -86,6 +86,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 15px;
   font-weight: 500;
 }
 
@@ -114,6 +115,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   height: 40px;
+  font-size: 15px;
   font-weight: 500;
 }
 
@@ -192,7 +194,7 @@ a {
 }
 
 .button-2 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   color: #101010;
   border: none;
@@ -217,8 +219,15 @@ a {
           align-items: center;
 }
 
+.button-2 .inner:hover svg {
+  opacity: 1;
+}
+
 .button-2 .inner svg {
   margin-left: 4px;
+  opacity: 0.5;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .button-2 .inner::after {
