@@ -225,10 +225,14 @@ a {
 
 .to-top {
   position: relative;
-  top: -65%;
-  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
   font-weight: 500;
   white-space: nowrap;
-  color: #777;
 }
 /*# sourceMappingURL=index.css.map */
