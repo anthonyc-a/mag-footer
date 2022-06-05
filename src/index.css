@@ -232,23 +232,4 @@ a {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
-
-.to-top {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 16px;
-  font-weight: 500;
-  white-space: nowrap;
-}
-
-@media screen and (min-width: 860px) {
-  .to-top {
-    display: none;
-  }
-}
 /*# sourceMappingURL=index.css.map */

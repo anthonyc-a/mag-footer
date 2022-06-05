@@ -25,10 +25,7 @@ function App() {
                 <MagneticLink type="LinkedIn" />
               </div>
             </div>
-            <div className="to-top">
-            ↑
-            </div>
-          </div>
+ui changes          </div>
         </div>
       </div>
     </div>
