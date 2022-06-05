@@ -169,6 +169,12 @@ a {
 
   .inner {
     position: relative;
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-left: 4px;
+    }
 
     &::after {
       content: "";
@@ -184,10 +190,15 @@ a {
 }
 
 .to-top {
-    position: relative;
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-    font-weight: 500;
-    white-space: nowrap;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 64px;
+  font-size: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+
+  @media screen and (min-width: 860px) {
+    display: none;
+  }
 }

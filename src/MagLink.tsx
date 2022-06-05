@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { gsap } from "gsap";
+import { TbArrowUpRight } from "react-icons/tb";
 
 interface Props {
   type: string;
@@ -115,6 +116,7 @@ const MagneticLink: React.FC<Props> = ({ type }: any): JSX.Element => {
     >
       <a href="/about" className="inner">
         {type}
+        <TbArrowUpRight size={18} />
       </a>
     </ML>
   );
